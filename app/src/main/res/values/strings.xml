@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestWork_0.3</string>
+    <string name="register_title">Register</string>
+    <string name="register_username">Username</string>
+    <string name="register_type_your_username">Type your username</string>
+    <string name="register_email_address">Email address</string>
+    <string name="register_wrond_email">Wrond email</string>
+    <string name="register_password">Password</string>
+    <string name="register_type_your_password">Type your password</string>
+    <string name="register_gender">Gender</string>
+    <string name="register_choose_your_gender">Choose your gender</string>
+    <string name="register_date_of_birth">Date of birth</string>
+    <string name="register_mm_dd_y">MM-DD-Y</string>
+    <string name="register_button">Register</string>
+    <string name="text_test">Мирон</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+ 
+    <TextView
+
+        style="@style/AppTheme.Text"
+        android:text="@string/register_username" />
+
+    <EditText
+        android:id="@+id/edit_text_register_type_your_username"
+        style="@style/AppTheme.EditText"
+        android:hint="@string/register_type_your_username" />
+
+    <TextView
+
+        style="@style/AppTheme.Text"
+        android:text="@string/register_email_address" />
+
+    <EditText
+        android:id="@+id/edit_text_register_type_wrond_email"
+        style="@style/AppTheme.EditText"
+        android:drawableLeft="@drawable/icon_error"
+        android:drawablePadding="5dp"
+        android:hint="@string/register_wrond_email" />
+
+    <TextView
+
+        style="@style/AppTheme.Text"
+        android:text="@string/register_password" />
+
+
+    <EditText
+        android:id="@+id/edit_text_register_type_your_password"
+        style="@style/AppTheme.EditText"
+        android:hint="@string/register_type_your_password"
+        android:inputType="numberPassword" />
+
+    <TextView
+
+        style="@style/AppTheme.Text"
+        android:text="@string/register_gender" />
+
+    <EditText
+        android:id="@+id/edit_text_register_gender"
+        style="@style/AppTheme.EditText"
+        android:hint="@string/register_choose_your_gender" />
+
+    <TextView
+
+        style="@style/AppTheme.Text"
+        android:text="@string/register_date_of_birth" />
+
+    <EditText
+        android:id="@+id/edit_register_mm_dd_y"
+        style="@style/AppTheme.EditText"
+        android:hint="@string/register_mm_dd_y" />
+
+    <Button
+        style="@style/AppTheme.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button" />
+
+
+</LinearLayout>
